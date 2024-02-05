@@ -17,7 +17,7 @@ df = sc_ref.to_df()
 bulk = pd.read_table(glob_config["test_dataset"], index_col=0)
 bulk = bulk.loc[~bulk.columns.duplicated(keep="first")]
 
-SignatureMatrix, _ = Deconvolution(sc_ref, bulk, sep='\t', scaler='mms', samplenum=6000,
+SignatureMatrix, _ = Deconvolution(sim_path, bulk, sep='\t', scaler='mms',
                                                         datatype='counts', genelenfile='./GeneLength.txt',
                                                         mode='high-resolution', adaptive=True, variance_threshold=0.98,
                                                         save_model_name=None,
@@ -25,5 +25,6 @@ SignatureMatrix, _ = Deconvolution(sc_ref, bulk, sep='\t', scaler='mms', samplen
 
 save_name = "results/tape_a_expr.pkl"
 
-with open(save_name) as f:
-    pickle.dump(SignatureMatrix, save_name)
+for cell_type in list(SignatureMatrix.keys()):
+    save_name = os.path.join(f"results", "tape_a_{cell_type}.csv")
+    SignatureMatrix[cell_type].to_csv(save_name)
