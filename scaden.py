@@ -12,7 +12,7 @@ if real_data_type=="h5ad":
 savename = "results/scaden_results.txt"
 var_cutoff = 0.1
 processed_path = "results/scaden_processed.h5ad"
-model_dir "results/scaden_model"
+model_dir = "results/scaden_model"
 
 processing(data_path=real_path, 
             training_data=sim_path, 

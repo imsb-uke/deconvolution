@@ -1,10 +1,8 @@
 config = {
-    "experiment_folder": "/Users/robin/Desktop/1106/y_sim0.005_GSE120502_ens", #"/Users/robin/Desktop/simulation_spatial_benchmark/starmap", # "/Users/robin/Desktop/human_raw2/", 
-    "test_dataset": "/Users/robin/Desktop/old_files/datasets_old_new/tests/GSE120502.txt",
-    
-    #"reference": "/Users/robin/Desktop/DISSECT/datasets/simulated/breast_simulation/breast.h5ad", 
-    #"reference": "/Users/robin/Documents/dissect/tests/IBD_1/single_cell/data.h5ad",
-    "reference": "/Users/robin/Desktop/old_files/datasets_old_new/simulated/pbmc8k.h5ad",
+    "experiment_folder": "/Users/robin/Desktop/1106/exp",
+    "test_dataset": "/Users/robin/Desktop/old_files/datasets/tests/GSE120502.txt",
+
+    "reference": "/Users/robin/Desktop/old_files/datasets/simulated/pbmc8k.h5ad",
     "test_dataset_format": "txt", # Either tab-delimited txt file with genes in rows or h5ad file compatible with Scanpy.
     "test_dataset_type": "bulk", # bulk, microarray or spatial
     "duplicated": "first", # In case, there are duplicated genes in the test_dataset. To use the first occuring gene, write first. To sum the duplicated genes, write sum. To take average, write mean
