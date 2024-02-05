@@ -23,6 +23,8 @@ For each figure and related supplementary figure, notebooks and data are put in 
 ├── fig3
 │   ├── 3A-C.ipynb
 │   ├── 3D-E.ipynb
+│   ├── S3.ipynb
+│   ├── S4A-B.ipynb
 │   ├── data
 │   └── plots
 └── requirements.txt
