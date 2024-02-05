@@ -2,6 +2,8 @@
 Runs deconvolution pipeline. 
 Data and figures to reproduce all main figures are available in paper_figures together with instructions. 
 
+DISSECT with usage instructions and tutorials is available at [https://github.com/imsb-uke/DISSECT](https://github.com/imsb-uke/DISSECT).
+
 ## Usage
 Make sure to install individual packages of MuSiC, BayesPrism, TAPE and Scaden. DISSECT is configured by configs/main_config.py. All others methods are controlled by config/glob_config.py which requires path to single-cell and bulk datasets. It can be modified for each experiment.
 
@@ -34,5 +36,3 @@ python tape_O.py
 Rscript bayesPrism.R
 Rscript bayesPrism_M.R
 ```
-
-pip installable version of DISSECT with usage instructions and tutorials is available at [https://github.com/imsb-uke/DISSECT](https://github.com/imsb-uke/DISSECT).
