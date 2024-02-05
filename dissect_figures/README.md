@@ -27,6 +27,18 @@ For each figure and related supplementary figure, notebooks and data are put in 
 │   ├── S4A-B.ipynb
 │   ├── data
 │   └── plots
+├── figS5
+│   ├── S5.ipynb
+│   ├── data
+│   └── plots
+├── figS6
+│   ├── S6.ipynb
+│   ├── data
+│   └── plots
+├── figS7
+│   ├── S7.ipynb
+│   ├── data
+│   └── plots
 └── requirements.txt
 ```
 
