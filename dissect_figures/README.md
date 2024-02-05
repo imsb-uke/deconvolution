@@ -16,7 +16,8 @@ For each figure and related supplementary figure, notebooks and data are put in 
 ```
 ├── fig2
 │   ├── 2A-C.ipynb
-│   ├── S1A-B.ipynb
+│   ├── S1A.ipynb
+│   ├── S1B-C.ipynb
 │   └── S2A-B.ipynb
 │   ├── data
 │   ├── plots
