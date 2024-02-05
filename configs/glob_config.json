@@ -1,1 +1,1 @@
-{"experiment_folder": "/Users/robin/Desktop/experiments/", "reference": "/Users/robin/Documents/dissect/experiments/data/single_cell/pbmc8k_sc.h5ad", "is_signature": false, "test_dataset": "/Users/robin/Desktop/old_files/datasets_old_new/tests/GSE120502.txt", "test_format": "txt"}
+{"experiment_folder": "expriments", "reference": "datasets/single_cell/pbmc8k_sc.h5ad", "is_signature": false, "test_dataset": "datasets/tests/GSE120502.txt", "test_format": "txt"}
