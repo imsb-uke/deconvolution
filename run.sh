@@ -1,0 +1,9 @@
+python prepare_data.py
+python prepare_data_others.py 
+bash dissect.sh
+Rscript music.R
+python scaden.py
+python tape_A.py
+python tape_O.py
+Rscript bayesPrism.R
+Rscript bayesPrism_M.R
