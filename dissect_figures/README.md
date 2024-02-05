@@ -42,4 +42,4 @@ For each figure and related supplementary figure, notebooks and data are put in 
 │   └── plots
 └── requirements.txt
 ```
-
+Due to size limitations, Visium notebooks (S8-9) are not provided here.
