@@ -41,6 +41,6 @@ Rscript bayesPrism_M.R
 # Estimate expression
 python dissect_expr.py
 python tape_A_expr.py
-Rscript bMIND_expr.py
+Rscript bMIND_expr.R
 Rscript bayesPrism_expr.R
 ```
