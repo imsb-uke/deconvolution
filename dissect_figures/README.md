@@ -14,14 +14,14 @@
 
 For each figure and related supplementary figure, notebooks and data are put in subdirectories, as follows:
 ```
-├── fig2
+├── fig2_supp1-2
 │   ├── 2A-C.ipynb
 │   ├── S1A.ipynb
 │   ├── S1B-C.ipynb
 │   └── S2A-B.ipynb
 │   ├── data
 │   ├── plots
-├── fig3
+├── fig3_supp3-4
 │   ├── 3A-C.ipynb
 │   ├── 3D-E.ipynb
 │   ├── S3.ipynb
@@ -40,6 +40,18 @@ For each figure and related supplementary figure, notebooks and data are put in 
 │   ├── S7.ipynb
 │   ├── data
 │   └── plots
+├── figS8
+│   ├── S8A.ipynb
+│   ├── S8B-E.ipynb
+│   ├── data
+│   └── plots
+├── figS9
+│   ├── S9A.ipynb
+│   ├── S9B.ipynb
+│   ├── S9C-1.ipynb
+│   ├── data
+│   └── plots
 └── requirements.txt
 ```
 
+Due to size limitations, bigger datasets are not pushed here, but can be downloaded at and placed in the data folders. 
