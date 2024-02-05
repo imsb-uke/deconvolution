@@ -12,8 +12,9 @@ Make sure to install individual packages of MuSiC, BayesPrism, TAPE and Scaden. 
 scaden==1.1.2
 scTAPE==1.1.0
 MuSiC==1.0.0
-BayesPrism==2.1.2
 CibersortX docker
+BayesPrism==2.1.2
+MIND==0.3.3
 
 ```
 
@@ -36,4 +37,10 @@ python tape_A.py
 python tape_O.py
 Rscript bayesPrism.R
 Rscript bayesPrism_M.R
+
+# Estimate expression
+python dissect_expr.py
+python tape_A_expr.py
+Rscript bMIND_expr.py
+Rscript bayesPrism_expr.R
 ```

@@ -4,6 +4,8 @@ from scaden.predict import prediction
 
 from configs.main_config import config
 
+import os
+os.set_wd(config["experiment_folder"])
 sim_path = config["reference"]
 real_path = config["test_dataset"]
 real_data_type = config["test_dataset_type"]

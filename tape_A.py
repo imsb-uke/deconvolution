@@ -3,8 +3,12 @@ from configs.main_config import config
 from configs.glob_config import config as glob_config
 import scanpy as sc
 import pandas as pd
+import os
+os.set_wd(config["experiment_folder"])
 
-sc_ref = sc.read(glob_config["reference"])
+sim_path = config["reference"]
+
+sc_ref = sc.read(sim_path)
 sc_ref.var_names_make_unique()
 df = sc_ref.to_df()
 

@@ -55,4 +55,8 @@ preds <- get.fraction (bp=bp.res,
             which.theta="final",
             state.or.type="type")
 
-write.csv(preds, "results/bayesPrism_fractions.csv")
+for (celltype_label in cell_type_labels){
+    Z <- get.exp(bp=bp.res, state.or.type="type", cell.name=cell_type_label)
+    savename = paste0("results", "bayesPrism_expr_", cell_type_label, ".csv")
+    write.csv(Z, savename)
+}
