@@ -13,6 +13,7 @@ scaden==1.1.2
 scTAPE==1.1.0
 MuSiC==1.0.0
 BayesPrism==2.1.2
+CibersortX docker
 
 ```
 
