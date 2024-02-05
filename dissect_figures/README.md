@@ -54,3 +54,4 @@ For each figure and related supplementary figure, notebooks and data are put in 
 └── requirements.txt
 ```
 
+Due to the size limitations, some bigger datasets needed for Visium are deposited in [here](https://drive.google.com/drive/folders/1q6r8LTfsHtd9ajcH4G9jW1rvNUPIWkic?usp=sharing). They can be downloaded at placed in the data folders.
