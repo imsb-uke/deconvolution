@@ -54,4 +54,3 @@ For each figure and related supplementary figure, notebooks and data are put in 
 └── requirements.txt
 ```
 
-Due to size limitations, bigger datasets are not pushed here, but can be downloaded at and placed in the data folders. 
